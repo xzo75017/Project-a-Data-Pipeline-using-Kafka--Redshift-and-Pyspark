@@ -3,31 +3,31 @@
 # I Understanding the project overview
 
 ## 1 Spark Integration with  Redshift and Kafka
-- Spark can read and write data from anywhere.
+ Spark can read and write data from anywhere.
 ### 1 Why we need Integration
-- To fast data processing.
+ To fast data processing.
 
     
 ### 2 Extract , Transformation and Load 
-- To create data pipline we need ETL .
+ To create data pipline we need ETL .
 
 
 ### 3 PySpark Integration with Redshift.
-- Read write data from Redshift
+ Read write data from Redshift
 
 Note- 
-- need redshift jdbc jar file
-- need aws credentials : AccessKey and AccessSecretKey
+ need redshift jdbc jar file
+ need aws credentials : AccessKey and AccessSecretKey
 
 
 
 
 ## 2 PySpark Integration with Kafka.
  Data extraction using Kafka
-- Requirements: AWS Cloud
+ Requirements: AWS Cloud
 
-- Amazon Simple Storage Service (Amazon S3, Redshift)
-- Code Description
+ Amazon Simple Storage Service (Amazon S3, Redshift)
+ Code Description
     File Name : pyspark_redshift.ipynb, pyspark_kafka.ipynb, pyspark_redshift.py and pyspark_kafka.py
     DataSets : airlines1.csv
     Jar files : redshift-jdbc42-2.0.0.4.jar
@@ -36,16 +36,16 @@ Note-
 
  use findspark library when executing python script
 
- - import findspark
- - findspark.init()
+  ```import findspark```
+  ```findspark.init()```
 
-- Steps to Run
+ Steps to Run
 There are two ways to execute the end to end flow.
- - Command Prompt => python script
- - spark_path spark-submit file_path
- - spark_path => <path_to_spark>>
- - file_path => <path_to_file>
- - Data file path is same as script file path
+  Command Prompt => python script
+  spark_path spark-submit file_path
+  spark_path => <path_to_spark>>
+  file_path => <path_to_file>
+  Data file path is same as script file path
 
 eg. <C:\Users\admin\Desktop\spark\bin>spark-submit C:\Users\admin\Desktop\Integration\pyspark_redshift.py>
 
