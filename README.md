@@ -2,18 +2,18 @@
 
 # I Understanding the project overview
 
-- Spark Integration with  Redshift and Kafka
-Spark can read and write data from anywhere.
-- Why we need Integration
-To fast data processing.
+## 1 Spark Integration with  Redshift and Kafka
+- Spark can read and write data from anywhere.
+### 1 Why we need Integration
+- To fast data processing.
 
     
-- Extract , Transformation and Load 
-To create data pipline we need ETL .
+### 2 Extract , Transformation and Load 
+- To create data pipline we need ETL .
 
 
-- PySpark Integration with Redshift.
-Read write data from Redshift
+### 3 PySpark Integration with Redshift.
+- Read write data from Redshift
 
 Note- 
 - need redshift jdbc jar file
@@ -22,9 +22,9 @@ Note-
 
 
 
-- PySpark Integration with Kafka.
-Data extraction using Kafka
-#Requirements: AWS Cloud
+## 2 PySpark Integration with Kafka.
+ Data extraction using Kafka
+- Requirements: AWS Cloud
 
 - Amazon Simple Storage Service (Amazon S3, Redshift)
 - Code Description
@@ -34,7 +34,7 @@ Data extraction using Kafka
     File Description : Integration of pyspark with Redshift and Kafka.
     
 
-#NOTE :- use findspark library when executing python script
+ use findspark library when executing python script
 
  - import findspark
  - findspark.init()
